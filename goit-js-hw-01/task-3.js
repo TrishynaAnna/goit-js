@@ -11,7 +11,7 @@ else if (message === null) {
     console.log(message = 'Отменено пользователем!');
 }
 else {
-    console.log(message = 'Доступ запрещен, неверный пароль!');
+   alert(message = 'Доступ запрещен, неверный пароль!');
 }
 
 

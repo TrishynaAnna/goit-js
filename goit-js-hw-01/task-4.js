@@ -20,7 +20,7 @@ if (totalPrice === undefined) {
     console.log('Недостаточно средств на счету!');
 } else {
     console.log(
-        `Вы купили ${countDroid} дроидов, на счету осталось ${credits - totalPrice} кредитов.`,
+        `Вы купили ${totalPrice} дроидов, на счету осталось ${credits - totalPrice} кредитов.`,
     );
 }
 
