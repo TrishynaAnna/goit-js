@@ -1,5 +1,9 @@
-//Получить общую сумму баланса (поле balance) всех пользователей.
-import users from './users.js';
-const calculateTotalBalance = users =>  users.map(user => user.balance).reduce((prev, curr) => prev + curr, 0);
+//Напиши скрипт, который реагирует на изменение значения input#font-size-control (событие input)
+// и изменяет инлайн-стиль span#text обновляя свойство font-size. В результате при перетаскивании ползунка будет меняться размер текста.
+const range = document.querySelector("#font-size-slider");
+const text = document.querySelector("#text");
 
-console.log(calculateTotalBalance(users)); // 20916
+range.addEventListener("input", e => {
+    const countFontSize = e.currentTarget.value / 3.125;
+    text.setAttribute("style", `font-size:${countFontSize}px`);
+});

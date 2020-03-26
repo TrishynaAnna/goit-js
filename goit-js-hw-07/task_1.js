@@ -1,11 +1,10 @@
-// Получить массив имен всех пользователей (поле name).
-import users from './users.js';
+//В HTML есть список категорий ul#categories.
 
-
-const getUserNames = users => users.map(user => user.name);
-
-console.log(getUserNames(users));
-// [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
-
-
-
+const el = document.querySelectorAll('.item');
+Array.from(el).forEach(li => {
+    const h2 = li.querySelector('h2');
+    const elementLi = li.querySelectorAll('li');
+    console.log(
+        `Категория ${h2.textContent}. Количество элементов: ${elementLi.length}`,
+    );
+});

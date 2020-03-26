@@ -1,6 +1,10 @@
-//Получить пользоваля (не массив) по email (поле email, он уникальный).
-import users from './users.js';
-const getUserWithEmail = (users, email) =>  users.find(user => user.email === email);
+//Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
+const input = document.querySelector("input#name-input");
+const result = document.querySelector("span#name-output");
 
-console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
-console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
+input.addEventListener("change", e => {
+    result.textContent = e.currentTarget.value;
+    if (e.currentTarget.value.length === 0) {
+        result.textContent = " ";
+    }
+});

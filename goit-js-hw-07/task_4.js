@@ -1,6 +1,16 @@
-//Получить массив только неактивных пользователей (поле isActive).
-import users from './users.js';
-const getInactiveUsers = users =>
-    users.filter(user => user.isActive === false);
+//Счетчик состоит из спана и кнопок, которые должны увеличивать и уменьшать значение счетчика на 1.
 
-console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
+let counterValue = 0;
+const value = document.querySelector("#value");
+const decrement = document.querySelector('button[data-action="decrement"]');
+const increment = document.querySelector('button[data-action="increment"]');
+
+decrement.addEventListener("click", () => {
+    counterValue -= 1;
+    return (value.textContent = counterValue);
+});
+
+increment.addEventListener("click", () => {
+    counterValue += 1;
+    return (value.textContent = counterValue);
+});
