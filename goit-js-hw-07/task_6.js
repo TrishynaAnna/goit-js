@@ -3,9 +3,9 @@ const input = document.querySelector("#validation-input");
 
 input.addEventListener("blue", e => {
     const elem = e.currentTarget;
-    if (elem.value.length == elem.dataset.length) {
-        elem.className = "valid";
+    if (elem.value.length === elem.dataset.length) {
+        elem.classList = "valid";
     } else {
-        elem.className = "invalid";
+        elem.classList = "invalid";
     }
 });

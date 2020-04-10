@@ -7,10 +7,10 @@ const increment = document.querySelector('button[data-action="increment"]');
 
 decrement.addEventListener("click", () => {
     counterValue -= 1;
-    return (value.textContent = counterValue);
+    value.innerHTML = counterValue;
 });
 
 increment.addEventListener("click", () => {
     counterValue += 1;
-    return (value.textContent = counterValue);
+    value.innerHTML = counterValue;
 });
