@@ -1,11 +1,11 @@
 //Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
 const input = document.querySelector("#validation-input");
 
-input.addEventListener("blue", e => {
+input.addEventListener("blur", e => {
     const elem = e.currentTarget;
     if (elem.value.length === elem.dataset.length) {
-        elem.classList = "valid";
+        elem.classList.add("valid");
     } else {
-        elem.classList = "invalid";
+        elem.classList.remove("invalid");
     }
 });
