@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrishynaAnna/goit-js/tree/master/goit-js-hw-10.git"
+    "url": "git+https://github.com/TrishynaAnna/goit-js/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Yevhen Konyk <yevhen.konyk@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/TrishynaAnna/goit-js/tree/master/goit-js-hw-10#readme",
+  "homepage": "https://github.com/TrishynaAnna/goit-js/goit-js-hw-10#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
