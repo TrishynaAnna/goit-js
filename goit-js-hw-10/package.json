@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YevhenKonyk/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/TrishynaAnna/goit-js/tree/master/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Yevhen Konyk <yevhen.konyk@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/YevhenKonyk/goit-js-hw-10-food-service#readme",
+  "homepage": "https://github.com/TrishynaAnna/goit-js/tree/master/goit-js-hw-10#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "core-js": "^3.3.4",
-    "handlebars": "^4.4.5"
+    "handlebars": "^4.7.6"
   }
 }
