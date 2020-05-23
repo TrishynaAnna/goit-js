@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.colorSwitch {
+    text-transform: uppercase;
+    text-align: center;
+    width: 800px;
+    height: 300px;
+    border: 0 solid rgba(14, 13, 13, 0.904);
+    border-radius: 25%;
+    margin: 100px auto;
+    padding: 10px;
+}
+p{
+    margin-top: 70px;
+    font-size: 40px;
+}
+button {
+    margin-top: 40px;
+    border: 1px solid rgba(14, 13, 13, 0.904);
+    background: none;
+    border-radius: 25%;
+    width: 150px;
+    height: 70px;
+    outline: 0;
+    margin-right: 15px;
+}
+
